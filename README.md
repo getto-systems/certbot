@@ -13,5 +13,5 @@ docker pull getto/certbot-awscli
 ## build image
 
 ```
-docker build getto/certbot-awscli .
+docker build -t getto/certbot-awscli .
 ```
