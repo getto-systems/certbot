@@ -8,7 +8,7 @@ run : `certbot certonly --manual --preferred-challenges dns`
 docker pull getto/certbot-manual
 ```
 
-* [Docker Hub](https://hub.docker.com/r/getto/certbot-manual
+* [Docker Hub](https://hub.docker.com/r/getto/certbot-manual)
 
 ## run
 
