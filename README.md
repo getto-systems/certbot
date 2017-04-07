@@ -47,5 +47,5 @@ docker pull getto/certbot-manual
 ## build image
 
 ```
-docker build getto/certbot-manual .
+docker build -t getto/certbot-manual .
 ```
