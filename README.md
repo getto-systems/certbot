@@ -15,8 +15,8 @@ docker run \
 ```
 
 * certbot certonly --manual --preferred-challenges dns
-* auth hook : create record set <- aws route53
-* cleanup hook : delete record set
+* auth hook : create record set to aws route53
+* cleanup hook : delete record set from aws route53
 
 ### settings
 
