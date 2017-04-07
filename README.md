@@ -2,7 +2,7 @@
 
 run : `certbot certonly --manual --preferred-challenges dns`
 
-## docker pull
+## pull
 
 ```
 docker pull getto/certbot-manual
@@ -44,7 +44,7 @@ docker run \
   -it getto/certbot-manual
 ```
 
-## build image
+## build
 
 ```
 docker build -t getto/certbot-manual .
