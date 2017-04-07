@@ -2,6 +2,14 @@
 
 run : `certbot certonly --manual --preferred-challenges dns`
 
+## docker pull
+
+```
+docker pull getto/certbot-manual
+```
+
+* [Docker Hub](https://hub.docker.com/r/getto/certbot-manual
+
 ## run
 
 ```
@@ -35,14 +43,6 @@ docker run \
   -e LETSENCRYPT_EMAIL=$YOUR_EMAIL \
   -it getto/certbot-manual
 ```
-
-## docker pull
-
-```
-docker pull getto/certbot-manual
-```
-
-* [Docker Hub](https://hub.docker.com/r/getto/certbot-manual
 
 ## build image
 
